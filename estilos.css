@@ -1,0 +1,70 @@
+html {
+    background-color: #c2ffe3
+  }
+  
+  h1 { 
+      color: rgb(85, 85, 85);
+      font-display: "Roboto", sans-serif;
+      text-align: center;
+      background: #2aca82;
+      border-radius: 10px;
+      border-style: dashed;
+  }
+  
+  input, label {
+      display: block;
+      width: 100%;
+      font-family: "Roboto", sans-serif;
+    }
+    
+    input {
+      height: 30px;
+      padding: 10px;
+      outline: none;
+      border-style: none;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 5px;
+      font-size: 16px;
+      color: rgb(85, 85, 85)
+    }
+    
+    input[type=button] {
+      color: rgb(85, 85, 85);
+      margin: 5px;
+      background-color: #e8ff67;
+    
+    }
+    input[type=button]:hover {
+      cursor: pointer;
+      border: 1px solid #c9a738;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    }
+  
+    .contenedor {
+      width: 250px;
+      background-color: #42b883;
+      color: rgb(85, 85, 85);
+      border-radius: 10px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .columna {
+      float: right;
+      width: 45%;
+      padding: 0 10px;
+    }
+    
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+    .textcentro {
+      text-align: center
+    }
